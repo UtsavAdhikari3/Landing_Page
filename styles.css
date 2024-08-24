@@ -99,6 +99,8 @@ body{
 .my-images img{
     border-radius: 10px;
     border: 3px solid #3882f6;
+    flex-shrink: 1;
+    flex-wrap: wrap;
 }
 
 .my-images p{
@@ -127,3 +129,46 @@ body{
     align-self: center;
 }
 
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.signup-button{
+    display: flex;
+    background-color: #3882f6;
+    padding: 20px 50px;
+    border-radius: 10px;
+    width: 600px;
+    height: 80px;
+    color: #f9faf8;
+}
+
+.signup-button p{
+    margin-top: -20px;
+}
+
+.button{
+    margin:auto;
+}
+
+.button button{
+    padding: 2px 20px;
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 80px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
