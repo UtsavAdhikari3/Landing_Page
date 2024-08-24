@@ -19,7 +19,7 @@ body{
 }
 
 .nav h1{
-    margin-left: 200px;
+    margin-left: 180px;
     font-size: 24px;
     color: #f9faf8;
 }
@@ -57,10 +57,17 @@ body{
 
 .three button{
     font-size: 24px;
-    padding: 5px 20px;
-    background-color: blue;
+    padding: 5px 30px;
+    background-color: #3883f6;
     color: #f9faf8;
     border: none;
     border-radius: 8px;
+    position: relative;
+    top: -30px;
 }
 
+.intro img{
+    border-radius: 8px;
+    margin-right: 110px;
+    margin-bottom: 20px;
+}
