@@ -73,7 +73,7 @@ body{
 }
 .information{
     width: fit-content;
-    height: 500px;
+    height: fit-content;
     margin: auto;
 }
 
@@ -94,13 +94,12 @@ body{
     justify-content: center;
     gap: 30px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .my-images img{
     border-radius: 10px;
     border: 3px solid #3882f6;
-    flex-shrink: 1;
-    flex-wrap: wrap;
 }
 
 .my-images p{
